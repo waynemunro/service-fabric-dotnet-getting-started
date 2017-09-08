@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22808.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ClusterMonitorApplication", "ClusterMonitorApplication\ClusterMonitorApplication.sfproj", "{21F98D47-C3D0-43CF-AE56-83E74AE8A600}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClusterMonitor", "ClusterMonitor\ClusterMonitor.csproj", "{A1C8B604-A2C7-4803-A7A8-C2A55D10264A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stateful1", "Stateful1\Stateful1.csproj", "{C3C2C583-15B4-4CE6-9ACD-1319ABA09DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{A1C8B604-A2C7-4803-A7A8-C2A55D10264A}.Debug|x64.Build.0 = Debug|x64
 		{A1C8B604-A2C7-4803-A7A8-C2A55D10264A}.Release|x64.ActiveCfg = Release|x64
 		{A1C8B604-A2C7-4803-A7A8-C2A55D10264A}.Release|x64.Build.0 = Release|x64
+		{C3C2C583-15B4-4CE6-9ACD-1319ABA09DAE}.Debug|x64.ActiveCfg = Debug|x64
+		{C3C2C583-15B4-4CE6-9ACD-1319ABA09DAE}.Debug|x64.Build.0 = Debug|x64
+		{C3C2C583-15B4-4CE6-9ACD-1319ABA09DAE}.Release|x64.ActiveCfg = Release|x64
+		{C3C2C583-15B4-4CE6-9ACD-1319ABA09DAE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

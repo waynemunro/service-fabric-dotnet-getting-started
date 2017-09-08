@@ -7,7 +7,7 @@
   <ServiceTypes>
     <StatelessServiceType ServiceTypeName="ClusterMonitorType" />
   </ServiceTypes>
-  <CodePackage Name="Code" Version="1.0.0">
+  <CodePackage Name="Code" Version="1.0.1">
     <EntryPoint>
       <ExeHost>
         <Program>ClusterMonitor.exe</Program>
